@@ -4,8 +4,8 @@
     <title>Your New Application</title>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 
-    <link type="text/css" rel="stylesheet" href="Style\reset.css" />
-    <link type="text/css" rel="stylesheet" href="Style\style.css" />
+    <link type="text/css" rel="stylesheet" href="Css\reset.css" />
+    <link type="text/css" rel="stylesheet" href="Css\style.css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
     <style type="text/css">
@@ -17,7 +17,6 @@
 
 </head>
 <body>
-
 <div data-role="page" id="main-calendar">
 
     <div data-role="header" id="header">
@@ -60,9 +59,19 @@
             <div class="days">
                 <script type="text/javascript">
                     var counter=35;
-                    for (var i=1 ; i<=counter ; i++){
-                        document.write("<li class=num-day id ="+i+"> <span class=red></span> <span class=yellow></span> <span class=green></span> "
-                                + "<div class=badboy></div>    <span id=number></span>  </li>");
+                    var c=0;
+                    for (var i=0 ; i<counter ; i++){
+
+                        if(c!=6 && i%7!=0) {
+                            document.write("<li class=num-day id ="+i+"> <a href=><span class=red></span> <span class=yellow></span> <span class=green>                                   </span> <div class=badboy></div>    <span id=number><p class=test>10</p></span> </a> </li>");   }
+                        else if(i%7==0){
+                            document.write("<li class=num-day-first id ="+i+"> <a href=> <span class=red></span> <span class=yellow></span> <span                                         class=green></span> <div class=badboy></div>    <span id=number> <p class=test>10</p> </span> </a> </li>");
+                        }
+                        else if(c==6){
+                            document.write("<li class=num-day-last id ="+i+"> <a href=> <span class=red></span> <span class=yellow></span> <span                                         class=green></span> <div class=badboy></div>    <span id=number><p class=test>10</p></span> </a> </li>");
+                            c=-1;
+                        }
+                        c++;
                     }
                 </script>
                 <div class="badboy"></div>
@@ -73,5 +82,6 @@
     </div>
 
 </div>
+
 </body>
 </html>
