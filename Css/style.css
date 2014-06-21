@@ -47,9 +47,9 @@
 /*--------------- content --------------*/
 
 #content{
-    height: 60px;
     background: rgb(238,238,238);
     padding-top: 1px;
+    padding-bottom: 10px;
 }
 
 #year{
@@ -59,4 +59,25 @@
     letter-spacing: 2px;
     margin-top: 15px;
     font-family: B Nazanin;
+}
+
+#top #month{
+    width: 85%;
+    margin: 5px auto;
+    border: 1px solid chartreuse;
+}
+
+#month span{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#arrow-left{
+    background: url("../Image/arrow.png") 0 0;
+}
+
+#arrow-right{
+    background: url("../Image/arrow.png") -30px 0;
 }
