@@ -4,8 +4,8 @@
     <title>Your New Application</title>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 
-    <link type="text/css" rel="stylesheet" href="Css\reset.css" />
-    <link type="text/css" rel="stylesheet" href="Css\style.css" />
+    <link type="text/css" rel="stylesheet" href="Style\reset.css" />
+    <link type="text/css" rel="stylesheet" href="Style\style.css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
     <style type="text/css">
@@ -17,6 +17,7 @@
 
 </head>
 <body>
+
 <div data-role="page" id="main-calendar">
 
     <div data-role="header" id="header">
@@ -41,10 +42,32 @@
             <p id="year">1393</p>
             <div id="month">
                 <span id="arrow-left" title="برو به ماه قبل"><a href=""></a> </span>
-                <span id="months"> <p id="name-of-month">شهریور</p>  </span>
+                <span id="months"> <p id="name-of-month">مرداد</p>  </span>
                 <span id="arrow-right" title="برو به ماه بعد"> <a href=""> </a>  </span>
                 <div class="badboy"></div>
             </div>
+
+            <div class="day-of-week">
+                <li>ش</li>
+                <li>ی</li>
+                <li>د</li>
+                <li>س</li>
+                <li>چ</li>
+                <li>پ</li>
+                <li>ج</li>
+            </div>
+
+            <div class="days">
+                <script type="text/javascript">
+                    var counter=35;
+                    for (var i=1 ; i<=counter ; i++){
+                        document.write("<li class=num-day id ="+i+"> <span class=red></span> <span class=yellow></span> <span class=green></span> "
+                                + "<div class=badboy></div>    <span id=number></span>  </li>");
+                    }
+                </script>
+                <div class="badboy"></div>
+            </div>
+
         </div>
 
     </div>
