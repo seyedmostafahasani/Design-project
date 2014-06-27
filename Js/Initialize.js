@@ -408,12 +408,12 @@ function init(){
     var str;
     for (var i=0 , c=0 ; i<counter ; i++ , c++){
         if(c!=6 && i%7!=0) {
-            $('.days').append("<li class=num-day id ="+i+"num> <span class=red></span> <span class=yellow></span> <span class=green>                                   </span> <div class=badboy></div>    <span id=number><a href=# class=day><p class=test></p></a> </span> </li>");
+            $('.days').append("<li class=num-day id ="+i+"num> <span class=red></span>   <span id=number><a href=# class=day><p class=test></p></a> </span> </li>");
         }
         else if(i%7==0){
-            $('.days').append("<li class=num-day-first id ="+i+"num> <span class=red></span> <span class=yellow></span> <span                                         class=green></span> <div class=badboy></div>  <span id=number> <a href=# class=day><p class=test></p> </a></span>  </li>");         }
+            $('.days').append("<li class=num-day-first id ="+i+"num> <span class=red></span>  <span id=number> <a href=# class=day><p class=test></p> </a></span>  </li>");         }
         else if(c==6){
-            $('.days').append("<li class=num-day-last id ="+i+"num> <span class=red></span> <span class=yellow></span> <span                                         class=green></span> <div class=badboy></div>  <span id=number> <a href=# class=day><p class=test></p> </a></span>  </li>");
+            $('.days').append("<li class=num-day-last id ="+i+"num> <span class=red></span>  <span id=number> <a href=# class=day><p class=test></p> </a></span>  </li>");
             c=-1;
         }
 
