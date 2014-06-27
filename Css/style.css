@@ -2,7 +2,11 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
     font-family: MrMehdiHeydari;
+    /*    font-family: A Noor;*/
     direction: rtl;
 }
 
@@ -24,18 +28,20 @@ body{
 }
 
 #logo{
-    margin: 10px 15px 0;
+    margin: 14px 15px 0;
     float: left;
 }
 
-.menu{
-    display: block;
-    text-decoration: none;
-    padding: 17px;
+.logo{
+    content: url('../Image/Logo.png');
+    width: 48px;
+    height: 48px;
 }
 
 #setting{
     float: right;
+    position: relative;
+    padding: 17px;
 }
 
 #setting img{
@@ -43,10 +49,50 @@ body{
     display: block;
 }
 
+.img{
+    content: url('../Image/setting.png');
+    width: 24px;
+    height: 24px;
+}
+
 .textMenu{
     font-size: 12px;
     margin: 2px 1px 0 0;
     color: beige;
+}
+
+.submenu{
+    visibility: hidden;
+    position: absolute;
+    background: #308D91;
+    min-width: 200%;
+    top: 100%;
+    right: -200%;
+    margin-right: -10px;
+    box-shadow: 0px 0px 12px -1px #0F1614;
+    -webkit-transition : all .5s ease-in-out;
+}
+
+.submenu li{
+    list-style: none;
+}
+
+.submenu li a{
+    display: block;
+    color: #fff;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.submenu li:first-child{
+    border-bottom: 1px solid #C5B1B1;
+}
+
+.show{
+    right: 20%;
+    visibility: visible;
+    -webkit-transition : all .5s ease-in-out;
 }
 
 /*--------------- content --------------*/
@@ -66,22 +112,32 @@ body{
 }
 
 #top #month{
-    width: 85%;
+    width: 95%;
     margin: 5px auto;
 }
 
-#month #arrow-left , #month #months{
+#month #arrow-left {
     float: left;
+}
+
+#month #arrow-left{
+    width: 30px;
+    height: 30px;
+    background: url(../Image/arrow.png) 0 0;
 }
 
 #month #arrow-right {
     float: right;
-    margin-top: -30px ;
+    margin-top: -25px ;
+    width: 30px;
+    height: 30px;
+    background: url(../Image/arrow.png) -30px 0;
 }
 
 #months{
-    min-width: 100%;
-    margin: -33px auto;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 #month p{
@@ -103,9 +159,9 @@ body{
 }
 
 .day-of-week{
-    width: 85%;
+    width: 95%;
     border-bottom : 1px solid cornflowerblue;
-    margin: 10px auto;
+    margin: 15px auto 0;
     padding-bottom: 5px;
 }
 
@@ -113,28 +169,33 @@ body{
     display: inline-block;
     text-align: center;
     height: 25px;
-    width: 20px;
-    margin-left: 16px;
+    width: 6.8%;
+    margin-left: 6.6%;
 }
 
+/*
 .day-of-week li:first-child{
-    margin-right: 7px;
+    margin-right: 2%;
 }
+*/
 
 .day-of-week li:last-child{
-    margin-right: 0;
+    /*    margin-right: 0;*/
     margin-left: 0;
 }
 
 .days{
-    width: 85%;
+    width: 100%;
     margin: 5px auto;
 }
 
 .days li{
     float: right;
-    margin-left: 10.8px;
-    list-style: none
+    margin-left: 12.3px;
+    list-style: none;
+    margin-top: 12px;
+    width: 30px;
+    height: 30px;
 }
 
 .days a{
@@ -146,19 +207,23 @@ body{
     margin-left: 0;
 }
 
+/*
 .days li.num-day-first{
-    margin-right: 3px;
+    margin-right: 2%;
 }
+*/
 
 .red , .yellow , .green{
     display: inline-block;
-    width: 6px;
+    width: 19%;
     height: 6px;
     border-radius: 50%;
+    display:none;
 }
 
 .red{
     background: deeppink;
+    margin-right: 3px;
 }
 
 .yellow{
@@ -170,18 +235,48 @@ body{
 }
 
 #number{
-    display: block;
-    width: 30px;
-    height: 30px;
+    /*
+        width: 30px;
+        height: 30px;
+    */
+    border: 1px solid rgb(193,193,193);
+    margin: 0 auto;
     border-radius: 50%;
-    margin-right: -1px;
-    border: 1px solid khaki;
-    border-radius: 50%;
-    text-align: center;
 }
 
-.test {
+.first-row{
     display: block;
-    margin: 6px -3px 0px 0px;
+    visibility: hidden;
+}
+
+.other{
+    display: none;
+}
+
+.first{
+    visibility: visible;
+}
+
+.active{
+    background: rgb(108, 192, 152);
+    visibility: visible;
+}
+
+.other-show{
+    display: block;
+}
+
+.test{
     font-family: B Nazanin;
+    text-align: center;
+    margin: 7px 0;
+    color: #2E2927;
+}
+
+.select{
+    color: #fff;
+}
+
+.j{
+    border : 1px solid red;
 }
