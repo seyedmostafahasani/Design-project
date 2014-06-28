@@ -141,10 +141,6 @@
         margin-top: -19px;
     }
 
-    #month p{
-        font-size: 1.2em;
-    }
-
     #setting{
         padding: 22px 19px 13px;
     }
@@ -252,19 +248,12 @@
         padding-top: 20px;
     }
 
-    #year{font-size: 1.2em ; color: red;}
-
     .submenu li a {
         font-size: 0.9em;
     }
 
     .day-of-week li{
         margin-left: 6.6%;
-    }
-
-    #number{
-        width: 35px;
-        height: 35px;
     }
 
     #month p{
@@ -274,23 +263,10 @@
     .days li.num-day-first {
         margin-right: 3.5%;
     }
-
-    .test{
-        margin: 9px 0;
-    }
-
-    .days li {
-        margin: 5px 2.2% 5px 2%;
-    }
-
-    .day-of-week li:first-child {
-        margin-right: 3%;
-    }
 }
 
 @media only screen and (min-device-width : 361px) and (max-device-width : 480px)  {
     #year{
-        color: deepskyblue;
         font-size: 1.5em;
     }
 
@@ -359,9 +335,9 @@
         margin: 30px auto 0;
     }
 
-    .test{
-        font-size: 22px;
-        margin: 14px auto;
+    .test {
+        font-size: 1.2em;
+        margin: 16px auto;
     }
 
     #number{
@@ -369,7 +345,7 @@
     }
 
     .red{
-        width: 8px;height: 8px;margin-top: 1px;
+        width: 8px;height: 8px;
     }
 
     .days li{
@@ -382,61 +358,8 @@
 }
 
 @media only screen and (min-device-width : 361px) and (max-device-width : 480px) and (-webkit-device-pixel-ratio : 1.7)  {
-    #year{
-        color: lightseagreen;
-        font-size: 1.5em;
-    }
-
     .submenu li a {
         font-size: 1.1em;
-        padding: 25px 0;
-    }
-
-    #content{
-        padding-top: 25px;
-    }
-
-    #logo{
-        margin: 22px 15px 0;
-    }
-
-    .logo {
-        content: url('../Image/Logo_med.png');
-        width: 60px;
-        height: 60px;
-    }
-
-    .img{
-        width: 30px;height: 30px;
-    }
-
-    .textMenu{
-        font-size: 15px;
-    }
-
-    #setting{
-        padding: 25px;
-    }
-
-    #month #arrow-left {
-        width: 40px;
-        height: 40px;
-        background: url(../Image/arrow_med.png) 0 0;
-    }
-
-    #month #arrow-right {
-        width: 40px;
-        height: 40px;
-        background: url(../Image/arrow_med.png) -40px 0;
-        margin-top: -27px;
-    }
-
-    #month p{
-        font-size: 1.7em;
-    }
-
-    .day-of-week li:first-child{
-        margin-right: 2.5%;
     }
 
     .day-of-week li{
@@ -444,29 +367,8 @@
         margin-left: 6.9%;
     }
 
-    .day-of-week{
-        margin: 30px auto 0;
-    }
-
-    .test{
-        font-size: 22px;
-        margin: 14px auto;
-    }
-
-    #number{
-        width: 50px;height: 50px;
-    }
-
-    .red{
-        width: 8px;height: 8px;margin-top: 1px;
-    }
-
     .days li{
         margin: 10px 2.1% 17px -0.1%;
-    }
-
-    .days li.num-day-first{
-        margin-right: 3%;
     }
 }
 
@@ -479,14 +381,6 @@
     .submenu li a {
         font-size: 1em;
         padding: 21px 0;
-    }
-
-    #content{
-        padding-top: 25px;
-    }
-
-    #logo{
-        margin: 22px 15px 0;
     }
 
     .logo {
@@ -508,29 +402,11 @@
         padding: 24px 25px;
     }
 
-    #month #arrow-left {
-        width: 40px;
-        height: 40px;
-        background: url(../Image/arrow_med.png) 0 0;
-    }
-
-    #month #arrow-right {
-        width: 40px;
-        height: 40px;
-        background: url(../Image/arrow_med.png) -40px 0;
-        margin-top: -27px;
-    }
-
     #month p{
         font-size: 1.5em;
     }
 
-    .day-of-week li:first-child{
-        margin-right: 2.5%;
-    }
-
     .day-of-week li{
-        font-size: 1.1em;
         margin-left: 6.9%;
     }
 
@@ -539,24 +415,24 @@
     }
 
     .test{
-        font-size: 1.1em;
-        margin: 15px auto;
+        font-size: 1em;
+        margin: 13px auto;
     }
 
     #number{
-        width: 45px;height: 45px;
+        width: 40px;height: 40px;
     }
 
     .red{
-        width: 6px;height: 6px;margin-top: 1px;
+        width: 6px;height: 6px;
     }
 
     .days li{
-        margin: 10px 2.3% 17px 0%;
+        margin: 5px 2.6% 5px 1%;
     }
 
     .days li.num-day-first{
-        margin-right: 2.8%;
+        margin-right: 3%;
     }
 }
 
@@ -634,8 +510,8 @@
     }
 
     .test{
-        margin: 15px auto;
-        font-size: 1.6em;
+        margin: 17px auto;
+        font-size: 1.5em;
     }
 
     .red{
@@ -737,7 +613,7 @@
     }
 
     .test{
-        margin: 15px auto;
+        margin: 17px auto;
         font-size: 1.6em;
     }
 
@@ -767,7 +643,9 @@
 }
 
 @media screen and (min-device-width : 601px) and (max-device-width : 640px) {
-    #year{color: aqua;}
+    .test {
+        margin: 14px 0;
+    }
 
     #content{
         padding-top: 10px;
@@ -909,10 +787,10 @@
 
 @media screen and (min-device-width : 641px) and (max-device-width : 768px) and (-webkit-device-pixel-ratio : 1){
     .days li {
-        margin: 25px 2.7% 25px 1.7%;
+        margin: 25px 1.8% 25px 2.7%;
     }
 
     .days li.num-day-first{
-        margin-right: 4.8%;
+        margin-right: 4.3%;
     }
 }
