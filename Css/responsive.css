@@ -261,6 +261,14 @@
     .day-of-week li:first-child {
         margin-right: 3%;
     }
+
+    .submenu{
+        width: 200%;
+    }
+
+    .submenu li a{
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-device-width : 321px) and (max-device-width : 360px) and (-webkit-device-pixel-ratio : 1.5) and (orientation : portrait){
@@ -920,5 +928,15 @@
 
     .days li {
         margin: 25px 2.4% 25px 1.5%;
+    }
+}
+
+@media screen and (min-device-width : 641px) and (max-device-width : 768px) and (-webkit-device-pixel-ratio : 1){
+    .days li {
+        margin: 25px 2.7% 25px 1.7%;
+    }
+
+    .days li.num-day-first{
+        margin-right: 4.8%;
     }
 }
