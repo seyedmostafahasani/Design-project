@@ -843,7 +843,7 @@
     }
 
     #month p{
-        font-size: 2.6em;
+        font-size: 2.3em;
     }
 
     #setting{
@@ -875,7 +875,7 @@
         width: 70px;
         height: 70px;
         background: url(../Image/arrow_large.png) -70px 0;
-        margin-top: -42px;
+        margin-top: -37px;
     }
 
     .day-of-week {
