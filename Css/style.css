@@ -80,13 +80,13 @@ body{
 .submenu li a{
     display: block;
     color: #fff;
-    padding: 20px 25px;
+    padding: 20px 0;
     text-align: center;
     text-decoration: none;
 }
 
 .submenu li:first-child{
-    border-bottom: 1px solid #C5B1B1;
+    border-bottom: 1px solid #929292;
 }
 
 .show{
@@ -169,8 +169,9 @@ body{
     display: inline-block;
     text-align: center;
     height: 25px;
-    width: 6.8%;
+    width: 6.8%; /*6.8*/
     margin-left: 6.6%;
+    font-size: 1em;
 }
 
 .day-of-week li:first-child{
@@ -189,7 +190,7 @@ body{
 
 .days li{
     float: right;
-    margin-left: 12.3px;
+    margin-left: 5%;
     list-style: none;
 }
 
@@ -207,7 +208,7 @@ body{
 }
 
 .red {
-    display: block;
+    display: inline-block;
     width: 6px;
     height: 6px;
     border-radius: 50%;
