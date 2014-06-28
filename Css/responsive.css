@@ -398,414 +398,245 @@
 }
 
 @media only screen and (min-device-width : 481px) and (max-device-width : 540px) {
-    #year{color: #F3C73A;}
+    #year{
+        color: deepskyblue;
+        font-size: 2.2em;
+    }
+    #logo{
+        margin: 30px 20px 0;;
+    }
+
+    .logo{
+        width: 75px;
+        height: 75px;
+        content: url('../Image/Logo_large.png');
+    }
+
+    #month p{
+        font-size: 2em;
+    }
+
+    #setting{
+        padding: 32px 29px;
+    }
+
+    .img{
+        width : 40px;
+        height : 40px;
+    }
+
+    .textMenu{font-size: 1.2em;}
+
+    #content{
+        padding-top: 30px;
+    }
+
+    #top #month {
+        margin: 10px auto;
+    }
+
+    #month #arrow-left {
+        width: 50px;
+        height: 50px;
+        background: url(../Image/arrow_medium.png) 0 0;
+    }
+
+    #month #arrow-right {
+        width: 50px;
+        height: 50px;
+        background: url(../Image/arrow_medium.png) -50px 0;
+        margin-top: -32px;
+    }
+
+    .day-of-week {
+        margin: 20px auto 0;
+        padding-bottom: 20px;
+    }
+
+    .day-of-week li:first-child{
+        margin-right: 4%;
+    }
+
+    .day-of-week li{
+        margin-left: 7.8%;
+        width: 5.8%;
+        font-size: 1.5em;
+    }
+
+    .submenu{min-width: 180%;}
+
+    .submenu li a {
+        padding: 30px 0;
+        font-size: 1.3em;
+    }
+
+    .test{
+        margin: 15px auto;
+        font-size: 1.6em;
+    }
+
+    .red{
+        margin-right: 2px;
+        width: 10px;
+        height: 10px;
+    }
+
+    #number{
+        width: 60px;
+        height: 60px;
+    }
+
+    .days li.num-day-first{
+        margin-right: 4%;
+    }
+
+    .days li.first{
+        margin-right: 12px;
+        margin-left: 0;
+    }
+
+    .days li {
+        margin: 15px 2% 15px 0.5%;
+    }
 }
 
-@media only screen and (min-device-width : 541px) and (max-device-width : 600px){}
+@media only screen and (min-device-width : 541px) and (max-device-width : 600px){
+    #year{
+        color: deepskyblue;
+        font-size: 2.2em;
+    }
+    #logo{
+        margin: 30px 20px 0;;
+    }
 
-@media screen and (min-device-width : 641px) and (max-device-width : 768px) and (orientation : portrait) {
-    #year{color: red;}
+    .logo{
+        width: 75px;
+        height: 75px;
+        content: url('../Image/Logo_large.png');
+    }
+
+    #month p{
+        font-size: 2em;
+    }
+
+    #setting{
+        padding: 32px 29px;
+    }
+
+    .img{
+        width : 40px;
+        height : 40px;
+    }
+
+    .textMenu{font-size: 1.2em;}
+
+    #content{
+        padding-top: 30px;
+    }
+
+    #top #month {
+        margin: 10px auto;
+    }
+
+    #month #arrow-left {
+        width: 50px;
+        height: 50px;
+        background: url(../Image/arrow_medium.png) 0 0;
+    }
+
+    #month #arrow-right {
+        width: 50px;
+        height: 50px;
+        background: url(../Image/arrow_medium.png) -50px 0;
+        margin-top: -32px;
+    }
+
+    .day-of-week {
+        margin: 20px auto 0;
+        padding-bottom: 20px;
+    }
+
+    .day-of-week li:first-child{
+        margin-right: 4%;
+    }
+
+    .day-of-week li{
+        margin-left: 7.8%;
+        width: 5.8%;
+        font-size: 1.5em;
+    }
+
+    .submenu{min-width: 180%;}
+
+    .submenu li a {
+        padding: 30px 0;
+        font-size: 1.3em;
+    }
+
+    .test{
+        margin: 15px auto;
+        font-size: 1.6em;
+    }
+
+    .red{
+        margin-right: 2px;
+        width: 10px;
+        height: 10px;
+    }
+
+    #number{
+        width: 60px;
+        height: 60px;
+    }
+
+    .days li.num-day-first{
+        margin-right: 4.1%;
+    }
+
+    .days li.first{
+        margin-right: 12px;
+        margin-left: 0;
+    }
+
+    .days li {
+        margin: 15px 2.2% 15px 1.4%;
+    }
 }
 
-/*@media only screen and (min-device-width : 361px) and  (max-device-width : 480px) and (min-device-height : 850px)  and (orientation : portrait) and (-webkit-device-pixel-ratio : 1) {*/
-    /*#logo{*/
-        /*margin: 22px 15px 0;*/
-    /*}*/
+@media screen and (min-device-width : 601px) and (max-device-width : 640px) {
+    #year{color: aqua;}
+
+    #content{
+        padding-top: 10px;
+    }
+
+    .day-of-week li:first-child {
+        margin-right: 2.5%;
+    }
+    .day-of-week li {
+        margin-left: 7.3%;
+    }
+
+    #month p{
+        font-size: 1.4em;
+    }
+
+    #month #arrow-right {
+        margin-top: -22px;
+    }
+
+    #number {
+        width: 45px;
+        height: 45px;
+    }
+
+    .days li {
+        margin-left: 6.9%;
+        margin-bottom: 10px;
+    }
+
+    .days li.num-day-first{
+        margin-right: 5%;
+    }
+}
 
-    /*.logo {*/
-        /*content: url('../Image/Logo_med.png');*/
-        /*width: 60px;*/
-        /*height: 60px;*/
-    /*}*/
-
-    /*.img{*/
-        /*width: 30px;height: 30px;*/
-    /*}*/
-
-    /*.textMenu{*/
-        /*font-size: 15px;*/
-    /*}*/
-
-    /*.submenu li a{*/
-        /*font-size: 20px;*/
-    /*}*/
-
-    /*#setting{*/
-        /*padding: 25px;*/
-    /*}*/
-
-    /*#year{*/
-        /*font-size : 23px;*/
-    /*}*/
-
-    /*#month #arrow-left {*/
-        /*width: 40px;*/
-        /*height: 40px;*/
-        /*background: url(../Image/arrow_med.png) 0 0;*/
-    /*}*/
-
-    /*#month #arrow-right {*/
-        /*width: 40px;*/
-        /*height: 40px;*/
-        /*background: url(../Image/arrow_med.png) -40px 0;*/
-        /*margin-top: -34px;*/
-    /*}*/
-
-    /*#month p{*/
-        /*font-size: 34px;*/
-    /*}*/
-
-    /*.day-of-week li:first-child{*/
-        /*margin-right: 2.5%;*/
-    /*}*/
-
-    /*.day-of-week li{*/
-        /*font-size: 18px;*/
-        /*margin-left: 7.2%;*/
-    /*}*/
-
-    /*.day-of-week{*/
-        /*margin: 30px auto 0;*/
-    /*}*/
-
-    /*#content {*/
-        /*padding-top: 20px;*/
-        /*padding-bottom: 10px;*/
-    /*}*/
-
-    /*.test{*/
-        /*font-size: 22px;*/
-        /*margin: 14px auto;*/
-    /*}*/
-
-    /*#number{*/
-        /*width: 50px;height: 50px;*/
-    /*}*/
-
-    /*.red{*/
-        /*width: 8px;height: 8px;margin-top: 1px;*/
-    /*}*/
-
-    /*.days li{*/
-        /*margin: 17px 1.9% 17px 1.8%;*/
-    /*}*/
-
-    /*.days li.num-day-first{*/
-        /*margin-right: 3.2%;*/
-    /*}*/
-/*}*/
-
-/*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-device-pixel-ratio : 1.5) {*/
-    /*#logo {*/
-        /*margin: 15px 10px 0;*/
-    /*}*/
-
-    /*.logo {*/
-        /*width: 50px;*/
-        /*height: 50px;*/
-    /*}*/
-
-    /*.img{*/
-        /*width: 25px;*/
-        /*height: 25px;*/
-    /*}*/
-
-    /*.submenu li a {*/
-        /*padding: 18px 0;*/
-        /*font-size: 14px;*/
-    /*}*/
-
-    /*.submenu{*/
-        /*width: 180%;*/
-    /*}*/
-
-    /*.textMenu {*/
-        /*font-size: 0.7em;*/
-    /*}*/
-
-    /*#number{*/
-        /*width: 35px;*/
-        /*height : 35px;*/
-    /*}*/
-
-    /*#content{*/
-        /*padding-top: 15px;*/
-    /*}*/
-
-    /*.days li{*/
-        /*margin: 5px 2.6% 10px 0.6%;*/
-    /*}*/
-
-    /*.days li.num-day-first{*/
-        /*margin-right: 2.5%;*/
-    /*}*/
-
-    /*.red{*/
-        /*width: 5px;*/
-        /*height: 5px;*/
-    /*}*/
-
-    /*.day-of-week li{*/
-        /*margin-left: 6.5%;*/
-    /*}*/
-
-    /*.day-of-week li:first-child{*/
-        /*margin-right: 2.5%;*/
-    /*}*/
-
-    /*.test{*/
-        /*font-size: 15px;*/
-        /*margin: 9px auto;*/
-    /*}*/
-/*}*/
-
-/*@media screen and (min-device-width : 481px) and (max-device-width : 540px) and (orientation : portrait) {*/
-    /*#year{color: red;}*/
-/*}*/
-
-
-
-/*@media only screen and (max-device-width: 1600px) and (orientation : portrait)  {*/
-    /*#setting{*/
-        /*padding: 30px;*/
-    /*}*/
-
-    /*.img{*/
-        /*width: 45px;*/
-        /*height: 45px;*/
-    /*}*/
-
-    /*.textMenu{*/
-        /*font-size: 22px;*/
-    /*}*/
-
-    /*#logo{*/
-        /*margin: 28px 30px 0;*/
-    /*}*/
-
-    /*.logo{*/
-        /*width: 75px;*/
-        /*height: 75px;*/
-        /*content: url("../Image/Logo_large.png");*/
-    /*}*/
-
-    /*.submenu li a {*/
-        /*padding: 32px 0;*/
-        /*font-size: 24px;*/
-    /*}*/
-
-    /*.submenu li:first-child {*/
-        /*border-bottom: 2px solid #C5B1B1;*/
-    /*}*/
-
-    /*#content{*/
-        /*padding-top: 40px;*/
-    /*}*/
-
-    /*#year{*/
-        /*color: #626463;*/
-        /*font-size: 32px;*/
-    /*}*/
-
-    /*#month #arrow-left {*/
-        /*width: 70px;*/
-        /*height: 70px;*/
-        /*background: url(../Image/arrow_large.png) 0 0;*/
-    /*}*/
-
-    /*#top #month{*/
-        /*margin: 15px auto;*/
-    /*}*/
-
-    /*#month p {*/
-        /*font-size: 3em;*/
-    /*}*/
-
-    /*#month #arrow-right {*/
-        /*float: right;*/
-        /*margin-top: -48px;*/
-        /*width: 70px;*/
-        /*height: 70px;*/
-        /*background: url(../Image/arrow_large.png) -70px 0;*/
-    /*}*/
-
-    /*.day-of-week{*/
-        /*margin: 30px auto 0;*/
-        /*padding-bottom: 30px;*/
-        /*border-bottom: 2px solid cornflowerblue ;*/
-    /*}*/
-
-    /*.day-of-week li{*/
-        /*margin-left: 10%;*/
-        /*font-size: 1.9em;*/
-    /*}*/
-
-    /*.day-of-week li:first-child{*/
-        /*margin-right: 4.8%;*/
-    /*}*/
-
-    /*.days li.num-day-first{*/
-        /*margin-right: 4.4%;*/
-    /*}*/
-
-    /*#number{*/
-        /*width: 80px;*/
-        /*height: 80px;*/
-    /*}*/
-
-    /*.days li{*/
-        /*margin:25px 1.1% 25px 2.6%;*/
-    /*}*/
-
-    /*.test {*/
-        /*margin: 26px 0;*/
-        /*font-size: 30px;*/
-    /*}*/
-
-    /*.red {*/
-        /*width: 13px;*/
-        /*height: 13px;*/
-        /*background: rgb(255, 31, 152);*/
-    /*}*/
-/*}*/
-
-/*@media only screen and (max-device-width: 1536px)  {*/
-    /*#setting{*/
-        /*padding: 40px;*/
-    /*}*/
-
-    /*.img{*/
-        /*width: 30px;*/
-        /*height: 30px;*/
-    /*}*/
-
-    /*#month p {*/
-        /*font-size: 2.5em;*/
-    /*}*/
-
-    /*#month #arrow-right {*/
-        /*margin-top: -40px;*/
-    /*}*/
-
-    /*.day-of-week li{*/
-        /*font-size: 1.8em;*/
-    /*}*/
-
-    /*#number{*/
-        /*width: 75px;*/
-        /*height: 75px;*/
-    /*}*/
-
-    /*.days li{*/
-        /*margin : 25px 1.5% 25px 2.6%;*/
-    /*}*/
-
-    /*.red {*/
-        /*width: 11px;*/
-        /*height: 11px;*/
-    /*}*/
-/*}*/
-
-/*@media screen and (max-device-width: 1200px) and (orientation : portrait) {*/
-    /*#setting{*/
-        /*padding: 30px;*/
-    /*}*/
-
-    /*.img{*/
-        /*width: 45px;*/
-        /*height: 45px;*/
-    /*}*/
-
-    /*.textMenu{*/
-        /*font-size: 22px;*/
-    /*}*/
-
-    /*#logo{*/
-        /*margin: 28px 30px 0;*/
-    /*}*/
-
-    /*.logo{*/
-        /*width: 75px;*/
-        /*height: 75px;*/
-        /*content: url("../Image/Logo_large.png");*/
-    /*}*/
-
-    /*.submenu li a {*/
-        /*padding: 32px 0;*/
-        /*font-size: 24px;*/
-    /*}*/
-
-    /*.submenu li:first-child {*/
-        /*border-bottom: 2px solid #C5B1B1;*/
-    /*}*/
-
-    /*#content{*/
-        /*padding-top: 40px;*/
-    /*}*/
-
-    /*#year{*/
-        /*color: #626463;*/
-        /*font-size: 32px;*/
-    /*}*/
-
-    /*#month #arrow-left {*/
-        /*width: 70px;*/
-        /*height: 70px;*/
-        /*background: url(../Image/arrow_large.png) 0 0;*/
-    /*}*/
-
-    /*#top #month{*/
-        /*margin: 15px auto;*/
-    /*}*/
-
-    /*#month p {*/
-        /*font-size: 3em;*/
-    /*}*/
-
-    /*#month #arrow-right {*/
-        /*float: right;*/
-        /*margin-top: -48px;*/
-        /*width: 70px;*/
-        /*height: 70px;*/
-        /*background: url(../Image/arrow_large.png) -70px 0;*/
-    /*}*/
-
-    /*.day-of-week{*/
-        /*margin: 30px auto 0;*/
-        /*padding-bottom: 30px;*/
-        /*border-bottom: 2px solid cornflowerblue ;*/
-    /*}*/
-
-    /*.day-of-week li{*/
-        /*margin-left: 10%;*/
-        /*font-size: 1.9em;*/
-    /*}*/
-
-    /*.day-of-week li:first-child{*/
-        /*margin-right: 4.8%;*/
-    /*}*/
-
-    /*.days li.num-day-first{*/
-        /*margin-right: 4.7%;*/
-    /*}*/
-
-    /*#number{*/
-        /*width: 80px;*/
-        /*height: 80px;*/
-    /*}*/
-
-    /*.days li{*/
-        /*margin:25px 1.1% 25px 2.6%;*/
-    /*}*/
-
-    /*.test {*/
-        /*margin: 26px 0;*/
-        /*font-size: 30px;*/
-    /*}*/
-
-    /*.red {*/
-        /*width: 13px;*/
-        /*height: 13px;*/
-        /*background: rgb(255, 31, 152);*/
-    /*}*/
-/*}*/
