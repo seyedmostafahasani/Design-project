@@ -1032,3 +1032,7 @@
         margin: 25px 2.5% 25px 2.5%;
     }
 }
+
+@media screen and (min-device-width : 801px) and (max-device-width : 854px) {
+    #year{color: #308D91;}
+}
