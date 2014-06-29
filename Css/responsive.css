@@ -571,12 +571,21 @@
         margin: 20px 20px 0;
     }
 
+    #month #arrow-left{
+        width: 40px;
+        height: 40px;
+        background: url("../Image/arrow_med.png") 0 0;
+    }
+
     #month p{
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 
     #month #arrow-right {
-        margin-top: -29px;
+        width: 40px;
+        height: 40px;
+        background: url("../Image/arrow_med.png") -40px 0;
+        margin-top: -24px;
     }
 
     .day-of-week{
@@ -588,11 +597,24 @@
     }
 
     .days li {
-        margin: 10px 2.5% 10px 0%;
+        margin: 10px 3.1% 10px 1.2%;
     }
 
     .days li.num-day-first {
-        margin-right: 3.3%;
+        margin-right: 4.6%;
+    }
+
+    #number {
+        width: 50px;
+        height: 50px;
+    }
+
+    .test {
+        font-size: 1.1em;
+    }
+
+    .red{
+        width: 7px;height: 7px;
     }
 }
 
