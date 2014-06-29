@@ -1167,3 +1167,7 @@
         font-size: 1.2em;
     }
 }
+
+@media screen and (min-device-width : 855px) and (max-device-width : 900px)  {
+
+}
