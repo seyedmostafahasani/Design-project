@@ -1232,3 +1232,55 @@
         margin: 15px 0;
     }
 }
+
+@media screen and (min-device-width : 961px) and (max-device-width : 1024px) {
+    #year {
+        font-size: 1.4em;
+    }
+
+    .submenu{
+        min-width: 220%;
+    }
+
+    #content{
+        padding-top: 25px;
+    }
+
+    #month #arrow-left {
+        width: 40px;
+        height: 40px;
+        background: url(../Image/arrow_med.png) 0 0;
+    }
+
+    #month p {
+        font-size: 1.3em;
+    }
+
+    #month #arrow-right {
+        margin-top: -21px;
+        width: 40px;
+        height: 40px;
+        background: url(../Image/arrow_med.png) -40px 0;
+    }
+
+    .day-of-week li {
+        margin-left: 7.7%;
+    }
+
+    #number{
+        width: 45px;height: 45px;
+    }
+
+    .days li.num-day-first {
+        margin-right: 5.6%;
+    }
+
+    .days li {
+        margin: 0 0.6% 5px 9.2%;
+    }
+
+    .test {
+        margin: 14px 0;
+        font-size: 1.1em;
+    }
+}
