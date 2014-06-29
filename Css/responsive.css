@@ -1035,4 +1035,34 @@
 
 @media screen and (min-device-width : 801px) and (max-device-width : 854px) {
     #year{color: #308D91;}
+
+    .submenu li a {
+        padding: 23px 0;
+        font-size: 0.9em;
+    }
+
+    .day-of-week li {
+        margin-left: 7.6%;
+    }
+
+    .days li.num-day-first {
+        margin-right: 4.3%;
+    }
+
+    .days li {
+        margin-left: 7.1%;
+    }
+
+    .red{
+        width: 8px;height: 8px;
+    }
+
+    #number{
+        width: 60px;height: 60px;
+    }
+
+    .test {
+        margin: 21px 0;
+        font-size: 1.2em;
+    }
 }
