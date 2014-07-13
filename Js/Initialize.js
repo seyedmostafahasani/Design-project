@@ -15,6 +15,7 @@ $(window).load(function(){
     });
 
     init();
+    response();
 
     var obj = cal_miladi_shamsi();
     list[0] = obj.year;
@@ -37,6 +38,8 @@ $(window).load(function(){
         $('.days .badboy').remove();
 
         init();
+
+        response();
 
         if(p.getMonth()>0){
             setSeconde(p.getYear() , m , 1);
@@ -73,6 +76,8 @@ $(window).load(function(){
 
         init();
 
+        response();
+
         if(p.getMonth()<11){
             setSeconde(p.getYear() , m , 1);
             var obj = complex(p.getYear() , m , 1);
@@ -97,7 +102,16 @@ $(window).load(function(){
         }
         e.preventDefault();
     });
+
 });
+
+function response(){
+    var width = $(".days li").width();
+    $('.days li').height(width);
+    var p = (parseInt($(".test").css('line-height'))-2);
+    var padding = (width - p)/2;
+    $('.days a').css({'paddingTop' : padding , 'paddingBottom':padding });
+}
 
 function setSeconde(y , m , d){
     var p = new PropertYear();
@@ -220,10 +234,10 @@ function show(year , day , day_of_week , month){
     if(day_of_week==6){
         day_of_week=0;
         $('#0num .test').text(1);
-        $('#0num #number').addClass('first');
+        $('#0num').addClass('first');
 
         if(1==select_day && p.getYear()==list[0] && p.getMonth()==list[1]){
-            $('#0num #number').addClass('active');
+            $('#0num').addClass('active');
             $('#0num .test').addClass('select');
         }
     }
@@ -231,9 +245,9 @@ function show(year , day , day_of_week , month){
         day_of_week++;
         var str="#"+day_of_week+"num";
         $(str+" .test").text(1);
-        $(str+' #number').addClass('first');
+        $(str).addClass('first');
         if(1==select_day && p.getYear()==list[0] && p.getMonth()==list[1]){
-            $(str+' #number').addClass('active');
+            $(str).addClass('active');
             $(str+' .test').addClass('select');
         }
     }
@@ -259,14 +273,14 @@ function show(year , day , day_of_week , month){
         $(str+" .test").text(i+1);
 
         if((i+1)==select_day) {
-            $(str+" #number").addClass('active');
+            $(str).addClass('active');
             $(str+' .test').addClass('select');
         }
         if(day_of_week<7){
-            $(str+" #number").addClass('first');
+            $(str).addClass('first');
         }
         else if(day_of_week>=7){
-            $(str+" #number").addClass('other-show');
+            $(str).addClass('other-show');
         }
 
     }
@@ -408,21 +422,21 @@ function init(){
     var str;
     for (var i=0 , c=0 ; i<counter ; i++ , c++){
         if(c!=6 && i%7!=0) {
-            $('.days').append("<li class=num-day id ="+i+"num> <span class=red></span>   <span id=number><a href=# class=day><p class=test></p></a> </span> </li>");
+            $('.days').append("<li class=num-day id ="+i+"num> <span class=red></span>  <a href=# class=day><p class=test></p></a>  </li>");
         }
         else if(i%7==0){
-            $('.days').append("<li class=num-day-first id ="+i+"num> <span class=red></span>  <span id=number> <a href=# class=day><p class=test></p> </a></span>  </li>");         }
+            $('.days').append("<li class=num-day-first id ="+i+"num> <span class=red></span>  <a href=# class=day><p class=test></p> </a>  </li>");         }
         else if(c==6){
-            $('.days').append("<li class=num-day-last id ="+i+"num> <span class=red></span>  <span id=number> <a href=# class=day><p class=test></p> </a></span>  </li>");
+            $('.days').append("<li class=num-day-last id ="+i+"num> <span class=red></span><a href=# class=day><p class=test></p> </a> </li>");
             c=-1;
         }
 
         if(i<7){
             str = i;
-            $('#'+i+'num'+ ' #number').addClass('first-row');
+            $('#'+i+'num').addClass('first-row');
         }else{
             str = i;
-            $('#'+i+'num'+ ' #number').addClass('other');
+            $('#'+i+'num').addClass('other');
         }
     }
     $('.days').append('<div class=badboy></div>');

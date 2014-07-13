@@ -1,21 +1,27 @@
 @font-face {
-    font-family: test;
-    src: url(../Font/Mr.%20Mehdi.ttf);
+    font-family: 'BNazaninRegular';
+    src: url('../Font/bnazanin.eot');
+    src: url('../Font/bnazanin.eot') format('embedded-opentype'),
+    url('../Font/bnazanin.woff') format('woff'),
+    url('../Font/bnazanin.ttf') format('truetype'),
+    url('../Font/bnazanin.svg#BNazaninRegular') format('svg');
 }
 
-@font-face {
-    font-family: Nazanin;
-    src: url(../Font/BNAZANIN.TTF);
-}
 
 *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -o-box-sizing  : border-box;
     box-sizing: border-box;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
-    font-family: test;
+    -o-user-select : none;
+    font-family : BNazaninRegular;
+    -webkit-text-rendering : auto;
+    -moz-text-rendering : auto;
+    -o-text-rendering : auto;
+    text-rendering : auto;
     direction: rtl;
 }
 
@@ -27,6 +33,7 @@
 
 body{
     background: rgb(238,238,238);
+    font-size: 16px;
 }
 
 #header{
@@ -37,20 +44,20 @@ body{
 }
 
 #logo{
-    margin: 14px 15px 0;
+    margin: 8px 5px 0;
     float: left;
 }
 
 .logo{
     content: url('../Image/Logo.png');
-    width: 48px;
-    height: 48px;
+    width: 39px;
+    height: 39px;
 }
 
 #setting{
     float: right;
     position: relative;
-    padding: 17px;
+    padding: 13px 5px 0;
 }
 
 #setting img{
@@ -60,12 +67,12 @@ body{
 
 .img{
     content: url('../Image/setting.png');
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 
 .textMenu{
-    font-size: 12px;
+    font-size: 14px !important;
     margin: 2px 1px 0 0;
     color: beige;
 }
@@ -74,9 +81,9 @@ body{
     visibility: hidden;
     position: absolute;
     background: #308D91;
-    min-width: 190%;
+    min-width: 250%;
     top: 100%;
-    right: -200%;
+    right: -260%;
     margin-right: -10px;
     box-shadow: 0px 0px 12px -1px #0F1614;
     -webkit-transition : all .5s ease-in-out;
@@ -89,9 +96,10 @@ body{
 .submenu li a{
     display: block;
     color: #fff;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
     text-decoration: none;
+    font-size: 16px !important;
 }
 
 .submenu li:first-child{
@@ -99,25 +107,28 @@ body{
 }
 
 .show{
-    right: 20%;
+    right: 25%;
     visibility: visible;
     -webkit-transition : all .5s ease-in-out;
+    -moz-transition : all .5s ease-in-out;
+    -o-transition : all .5s ease-in-out;
+    transition : all .5s ease-in-out;
 }
 
 /*--------------- content --------------*/
 
 #content{
-    padding-top: 1px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
 #year{
     color: rgb(134,134,134);
-    font-size: 1.2em;
+    font-size: 23px !important;
     text-align: center;
     letter-spacing: 2px;
     margin-top: 15px;
-    font-family: Nazanin;
+    font-family: 'BNazaninRegular';
 }
 
 #top #month{
@@ -137,7 +148,7 @@ body{
 
 #month #arrow-right {
     float: right;
-    margin-top: -21px ;
+    margin-top: -25px ;
     width: 30px;
     height: 30px;
     background: url(../Image/arrow.png) -30px 0;
@@ -147,12 +158,13 @@ body{
     width: 60%;
     display: block;
     margin: 0 auto;
+    padding-top: 3px;
 }
 
 #month p{
     text-align: center;
     color: rgb(134,134,134);
-    font-size: 1.2em;
+    font-size: 22px !important;
 }
 
 #arrow-left a{
@@ -170,25 +182,24 @@ body{
 .day-of-week{
     width: 95%;
     border-bottom : 1px solid cornflowerblue;
-    margin: 15px auto 0;
-    padding-bottom: 5px;
+    margin: 10px auto 0;
 }
 
 .day-of-week li{
-    display: inline-block;
-    text-align: center;
     height: 25px;
+    float: right;
+    list-style: none;
     width: 6.8%; /*6.8*/
-    margin-left: 6.6%;
-    font-size: 1em;
+    margin-right: 8.42%;
+    font-size: 1.0625em !important;
+    text-align: center;
 }
 
-.day-of-week li:first-child{
-    margin-right: 2%;
+.day-of-week li.o{
+    margin-right: 1.2%;
 }
 
 .day-of-week li:last-child{
-    /*    margin-right: 0;*/
     margin-left: 0;
 }
 
@@ -199,8 +210,12 @@ body{
 
 .days li{
     float: right;
-    margin-left: 5%;
+    position: relative;
     list-style: none;
+    width: 11.2%;
+    border: 1px solid rgb(193,193,193);
+    margin: 0 auto;
+    border-radius: 30px;
 }
 
 .days a{
@@ -213,25 +228,22 @@ body{
 }
 
 .days li.num-day-first{
-    margin-right: 1%;
+    margin-right: 1.2%;
+}
+
+.days li.num-day , .days li.num-day-last{
+    margin-right: 3.2%;
 }
 
 .red {
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 6px;
     visibility: hidden;
     background: deeppink;
-    margin-right: 3px;
-}
-
-#number{
-    width: 30px;
-    height: 30px;
-    border: 1px solid rgb(193,193,193);
-    margin: 0 auto;
-    border-radius: 50%;
+    top: -5px;
 }
 
 .first-row{
@@ -257,16 +269,11 @@ body{
 }
 
 .test{
-    font-family: Nazanin;
     text-align: center;
-    margin: 7px 0;
     color: #2E2927;
+    font-size: 13px !important;
 }
 
 .select{
     color: #fff;
-}
-
-.j{
-    border : 1px solid red;
 }
