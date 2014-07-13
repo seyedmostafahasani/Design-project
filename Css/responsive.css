@@ -174,8 +174,6 @@ only screen and (min-width : 251px) and (max-width : 320px) and (min-device-heig
         height: 22px;
     }
 
-    .submenu{min-width: 270%;}
-
     .submenu li a {
         padding: 18px 0;
         font-size: 16px !important;
@@ -212,6 +210,8 @@ only screen and (min-width : 251px) and (max-width : 320px) and (-o-min-device-p
         margin-left: 0;
     }
 }
+
+
 
 @media only screen and (min-width : 321px) and (max-width : 360px) {
     #year{color: chartreuse;}
