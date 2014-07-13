@@ -211,14 +211,21 @@ only screen and (min-width : 251px) and (max-width : 320px) and (-o-min-device-p
     }
 }
 
-
-
 @media only screen and (min-width : 321px) and (max-width : 360px) {
     #year{color: chartreuse;}
 
     .submenu{
         min-width: 300%;
         right: -280%;
+    }
+
+    #content{
+        padding-top: 20px;
+    }
+
+    .logo{
+        width: 45px;
+        height: 45px;
     }
 
     .show{
@@ -229,37 +236,19 @@ only screen and (min-width : 251px) and (max-width : 320px) and (-o-min-device-p
         margin-top: -28px;
     }
 
-    .day-of-week li {
-        margin-left: 22.5px;
+    .red{
+        width: 5px;
+        height: 5px;
     }
 
-    .days li {
-        margin-left: 19.5px;
-        padding-bottom: 15px;
-    }
-
-    .days li.num-day-first {
-        margin-right: 15.9px;
+    .days li{
+        margin: 12px 0;
     }
 }
 
 @media only screen and (min-width : 321px) and (max-width : 360px) and (min-height : 640px) {
-    #number{
-        width: 33px;
-        height: 33px;
-    }
-
-    .days li.num-day-first {
-        margin-right: 13.6px;
-    }
-
-    .days li {
-        margin-left: 16.9px;
-    }
-
     .test {
-        margin: 10px auto;
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
 }
 
@@ -273,8 +262,8 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     .submenu{
-        width: 280%;
-        right: -270%;
+        width: 290%;
+        right: -280%;
     }
 
     .show{
@@ -282,7 +271,7 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     .submenu li a {
-        font-size: 21px !important;
+        font-size: 23px !important;
         padding: 22px 0;
     }
 
@@ -319,27 +308,22 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     #month #arrow-left {
         width: 40px;
         height: 40px;
-        background: url(../Image/arrow_med.png) 0 0;
+        background: url(../Image/arrow_medium.png) 0 0;
     }
 
     #month #arrow-right {
         width: 40px;
         height: 40px;
-        background: url(../Image/arrow_med.png) -40px 0;
-        margin-top: -38px;
+        background: url(../Image/arrow_medium.png) -40px 0;
+        margin-top: -27px;
     }
 
     #month p{
         font-size: 29px !important;
     }
 
-    .day-of-week li:first-child{
-        margin-right: 10px;
-    }
-
     .day-of-week li{
         font-size: 21px !important;
-        margin-left: 33px;
     }
 
     .day-of-week{
@@ -348,13 +332,7 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     .test {
-        font-size: 19px !important;
-        margin: 16px auto;
-    }
-
-    #number {
-        width: 45px;
-        height: 45px;
+        font-size: 1.2em !important;
     }
 
     .red{
@@ -362,11 +340,7 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     .days li{
-        margin: 5px 14px 15px 9px;
-    }
-
-    .days li.num-day-first{
-        margin-right: 16px;
+        margin: 17px 0;
     }
 }
 
@@ -381,7 +355,7 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-o-min-device-p
     }
 
     .submenu{
-        width: 280%;
+        width: 260%;
         right: -270%;
     }
 
@@ -396,10 +370,6 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-o-min-device-p
 
     #header{
         border-width: 3px;
-    }
-
-    #logo{
-        margin: 13px 5px 5px;
     }
 
     .logo {
@@ -420,19 +390,6 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-o-min-device-p
         padding: 16px 5px 5px;
     }
 
-    #month #arrow-left {
-        width: 35px;
-        height: 35px;
-        background: url(../Image/arrow_medium.png) 0 0;
-    }
-
-    #month #arrow-right {
-        width: 35px;
-        height: 35px;
-        background: url(../Image/arrow_medium.png) -35px 0;
-        margin-top: -27px;
-    }
-
     #months{
         padding-top: 5px;
     }
@@ -441,46 +398,20 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-o-min-device-p
         font-size: 22px !important;
     }
 
-    .day-of-week li:first-child{
-        margin-right: 9px;
+    .day-of-week{
+        padding-bottom: 0;
     }
 
     .day-of-week li{
         font-size: 18px !important;
-        margin-left: 6.9%;
-    }
-
-    .day-of-week{
-        margin: 20px auto 0;
-        padding-bottom: 5px;
     }
 
     .test {
-        /*font-size: 16px !important;*/
-        /*margin: 12px auto;*/
-        font-size: 15px !important;
-        margin: 11px auto;
-    }
-
-    #number {
-        width: 36px;
-        height: 36px;
-    }
-
-    .red{
-        width: 5px;height: 5px;
-    }
-
-    .days{
-        width: 95%;
+        font-size: 1em !important;
     }
 
     .days li{
-        margin: 5px 5.2% 5px 0;
-    }
-
-    .days li.num-day-first{
-        margin-right: 1.4%;
+        margin: 10px 0;
     }
 }
 
@@ -550,26 +481,26 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
         margin: 15px auto 0;
     }
 
-    .day-of-week li{
-        margin-left: 33px;
+    .test {
+        font-size: 1em !important;
     }
 
-    .days li.num-day-first {
-        margin-right: 18px;
+    .red{
+        width: 5px;
+        height: 5px;
     }
 
     .days li{
-        margin: 0 23px 0 5px;
+        margin: 8px 0;
+        width: 9.375%;
     }
 
-    #number{
-        width : 40px;
-        height : 40px;
+    .days li.num-day-first {
+        margin-right: 1.875%;
     }
 
-    .test {
-        font-size: 15px !important;
-        margin: 13px auto;
+    .days li.num-day, .days li.num-day-last {
+        margin-right: 5.145%;
     }
 }
 
@@ -637,14 +568,7 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
         padding-bottom: 10px;
     }
 
-    .day-of-week li:first-child{
-        margin-right: 20px;
-    }
-
     .day-of-week li{
-        margin-left: 41px;
-        width: 5.8%;
-        font-size: 25px;
         font-size: 21px !important;
     }
 
@@ -657,7 +581,6 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     .test {
-        margin: 19px auto;
         font-size: 22px !important;
     }
 
@@ -665,24 +588,6 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
         margin-right: 2px;
         width: 10px;
         height: 10px;
-    }
-
-    #number{
-        width: 55px;
-        height: 55px;
-    }
-
-    .days li.num-day-first{
-        margin-right: 22px;
-    }
-
-    .days li.first{
-        margin-right: 12px;
-        margin-left: 0;
-    }
-
-    .days li {
-        margin:10px 16px 10px 3px;
     }
 }
 
@@ -747,14 +652,8 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
         border-width: 2px;
     }
 
-    .day-of-week li:first-child{
-        margin-right: 20px;
-    }
-
     .day-of-week li{
-        margin-left: 46px;
-        width: 5.8%;
-        font-size: 26px;
+        font-size: 26px !important;
     }
 
     .submenu{min-width: 230%;}
@@ -765,7 +664,6 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     .test{
-        margin: 17px auto;
         font-size: 1.6em;
     }
 
@@ -774,25 +672,6 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
         width: 8px;
         height: 8px;
     }
-
-    #number{
-        width: 60px;
-        height: 60px;
-    }
-
-    .days li.num-day-first{
-        margin-right: 22px;
-    }
-
-    .days li.first{
-        margin-right: 12px;
-        margin-left: 0;
-    }
-
-    .days li {
-        margin: 15px 17px 15px 6px;
-    }
-
 }
 
 @media only screen and (min-width : 601px) and (max-width : 640px) {
@@ -809,21 +688,7 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
         height: 6px;
     }
 
-    #number{
-        width: 45px;
-        height: 45px;
-    }
-
-    .days li.num-day-first{
-        margin-right: 24px;
-    }
-
-    .days li{
-        margin-left: 40px;
-    }
-
     .test {
-        margin: 14px;
         font-size: 18px;
     }
 }
@@ -890,15 +755,9 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
         border-width: 3px;
     }
 
-    .day-of-week li:first-child{
-        margin-right: 20px;
-    }
-
     .day-of-week li{
-        margin-left: 61px;
         height: 35px;
-        width: 5.8%;
-        font-size: 28px;
+        font-size: 28px !important;
     }
 
     .submenu{min-width: 230%;}
@@ -913,33 +772,13 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     .test{
-        margin: 21px auto;
-        font-size: 2em;
+        font-size: 2em !important;
     }
 
     .red{
         margin-right: 2px;
         width: 12px;
         height: 12px;
-    }
-
-    #number{
-        width: 70px;
-        height: 70px;
-        border-radius: 70px;
-    }
-
-    .days li.num-day-first{
-        margin-right: 29px;
-    }
-
-    .days li.first{
-        margin-right: 12px;
-        margin-left: 0;
-    }
-
-    .days li {
-        margin: 15px 22px 15px 15px;
     }
 
     #header{
