@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'BNazaninRegular';
+    src: url('../Font/bnazanin.eot');
+    src: url('../Font/bnazanin.eot') format('embedded-opentype'),
+    url('../Font/bnazanin.woff') format('woff'),
+    url('../Font/bnazanin.ttf') format('truetype'),
+    url('../Font/bnazanin.svg#BNazaninRegular') format('svg');
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -14,9 +23,11 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: 'BNazaninRegular';
     font-size: 100%;
     /*    font: inherit;*/
     vertical-align: baseline;
+    text-shadow: 0 0 0;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -40,4 +51,16 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a{
+    color: #fff;
+}
+
+.ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
+    color: #fff;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background: rgb(238,238,238);
 }

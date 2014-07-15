@@ -108,6 +108,7 @@ $(window).load(function(){
 function response(){
     var width = $(".days li").width();
     $('.days li').height(width);
+
     var p = (parseInt($(".test").css('line-height'))-2);
     var padding = (width - p)/2;
     $('.days a').css({'paddingTop' : padding , 'paddingBottom':padding });
@@ -422,12 +423,12 @@ function init(){
     var str;
     for (var i=0 , c=0 ; i<counter ; i++ , c++){
         if(c!=6 && i%7!=0) {
-            $('.days').append("<li class=num-day id ="+i+"num> <span class=red></span>  <a href=# class=day><p class=test></p></a>  </li>");
+            $('.days').append("<li class=num-day id ="+i+"num> <span class=red></span>  <a href=#listTaskCalendar data-transition=slide class=day><p class=test></p></a>  </li>");
         }
         else if(i%7==0){
-            $('.days').append("<li class=num-day-first id ="+i+"num> <span class=red></span>  <a href=# class=day><p class=test></p> </a>  </li>");         }
+            $('.days').append("<li class=num-day-first id ="+i+"num> <span class=red></span>  <a href=#listTaskCalendar data-transition=slide class=day><p class=test></p> </a>  </li>");         }
         else if(c==6){
-            $('.days').append("<li class=num-day-last id ="+i+"num> <span class=red></span><a href=# class=day><p class=test></p> </a> </li>");
+            $('.days').append("<li class=num-day-last id ="+i+"num> <span class=red></span><a href=#listTaskCalendar data-transition=slide class=day><p class=test></p> </a> </li>");
             c=-1;
         }
 

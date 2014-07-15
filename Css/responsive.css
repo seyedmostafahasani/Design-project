@@ -29,9 +29,7 @@
     }
 
     .day-of-week li{
-        /*width: 15px;*/
         font-size: 0.9625em !important;
-        height: 20px;
     }
 
     #year{
@@ -53,9 +51,7 @@
     }
 
     .days li {
-        margin: 7px 0;
-        /*padding-bottom: 5px;*/
-        /*width: 10.79%;*/
+        margin: 10px 0;
     }
 }
 
@@ -171,7 +167,6 @@ only screen and (min-width : 251px) and (max-width : 320px) and (min-device-heig
 
     .day-of-week li{
         font-size: 16px !important;
-        height: 22px;
     }
 
     .submenu li a {
@@ -194,7 +189,7 @@ only screen and (min-width : 251px) and (max-width : 320px) and (min-device-heig
     }
 
     .days li{
-        margin: 10px 0;
+        margin: 13px 0;
     }
 }
 
@@ -233,22 +228,28 @@ only screen and (min-width : 251px) and (max-width : 320px) and (-o-min-device-p
     }
 
     #month #arrow-right {
-        margin-top: -28px;
+        margin-top: -25px;
     }
 
     .red{
-        width: 5px;
-        height: 5px;
+        width: 4px;
+        height: 4px;
     }
 
     .days li{
-        margin: 12px 0;
+        margin: 15px 0;
     }
 }
 
 @media only screen and (min-width : 321px) and (max-width : 360px) and (min-height : 640px) {
     .test {
         font-size: 16px !important;
+    }
+}
+
+@media only screen and (min-width : 321px) and (max-width : 360px) and (orientation : landscape) {
+    .test{
+        font-size: 1em !important;
     }
 }
 
@@ -308,14 +309,14 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     #month #arrow-left {
         width: 40px;
         height: 40px;
-        background: url(../Image/arrow_medium.png) 0 0;
+        background: url(../Image/arrow_large.png) 0 0;
     }
 
     #month #arrow-right {
         width: 40px;
         height: 40px;
-        background: url(../Image/arrow_medium.png) -40px 0;
-        margin-top: -27px;
+        background: url(../Image/arrow_large.png) -40px 0;
+        margin-top: -32px;
     }
 
     #month p{
@@ -328,7 +329,6 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
 
     .day-of-week{
         margin: 20px auto 0;
-        padding-bottom: 5px;
     }
 
     .test {
@@ -343,7 +343,6 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
         margin: 17px 0;
     }
 }
-
 
 @media only screen and (min-width : 361px) and (max-width : 480px) and (-webkit-min-device-pixel-ratio : 2)and (orientation : portrait),
 only screen and (min-width : 361px) and (max-width : 480px) and (min-device-pixel-ratio : 2) and (orientation : portrait),
@@ -391,15 +390,15 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-o-min-device-p
     }
 
     #months{
-        padding-top: 5px;
+        padding-top: 8px;
     }
 
     #month p{
         font-size: 22px !important;
     }
 
-    .day-of-week{
-        padding-bottom: 0;
+    #month #arrow-right {
+        margin-top: -30px;
     }
 
     .day-of-week li{
@@ -411,7 +410,7 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-o-min-device-p
     }
 
     .days li{
-        margin: 10px 0;
+        margin: 13px 0;
     }
 }
 
@@ -452,7 +451,7 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     .submenu li a{
-        font-size: 18px !important;
+        font-size: 16px !important;
         padding: 20px 0;
     }
 
@@ -491,7 +490,7 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     .days li{
-        margin: 8px 0;
+        margin: 10px 0;
         width: 9.375%;
     }
 
@@ -500,7 +499,7 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     .days li.num-day, .days li.num-day-last {
-        margin-right: 5.145%;
+        margin-right: 5.25%;/*5.145%*/
     }
 }
 
@@ -524,11 +523,11 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     #month p{
-        font-size: 30px !important;
+        font-size: 33px !important;
     }
 
     #setting{
-        padding: 18px 10px 0px;
+        padding: 18px 5px 0px;
     }
 
     .img{
@@ -536,7 +535,7 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
         height : 35px;
     }
 
-    .textMenu{font-size: 20px !important;}
+    .textMenu{font-size: 22px !important;}
 
     #content{
         padding-top: 30px;
@@ -549,7 +548,7 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     #month #arrow-left {
         width: 50px;
         height: 50px;
-        background: url(../Image/arrow_medium.png) 0 0;
+        background: url(../Image/arrow_large2.png) 0 0;
     }
 
     #months{
@@ -559,8 +558,8 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     #month #arrow-right {
         width: 50px;
         height: 50px;
-        background: url(../Image/arrow_medium.png) -50px 0;
-        margin-top: -38px;
+        background: url(../Image/arrow_large2.png) -50px 0;
+        margin-top: -41px;
     }
 
     .day-of-week {
@@ -569,35 +568,132 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     .day-of-week li{
-        font-size: 21px !important;
+        font-size: 24px !important;
     }
 
-    .submenu{min-width: 230%;}
+    .submenu{min-width: 280%;right: -270%;}
+
+    .show{
+        right: 25%;
+    }
 
     .submenu li a {
-        padding: 20px 0;
-        font-size: 21px !important;
+        padding: 25px 0;
+        font-size: 26px !important;
+    }
 
+    .submenu li:first-child {
+        border-width: 2px;
     }
 
     .test {
-        font-size: 22px !important;
+        font-size: 23px !important;
     }
 
     .red{
         margin-right: 2px;
-        width: 10px;
-        height: 10px;
+        width: 8px;
+        height: 8px;
+        top: -10px;
+    }
+
+    .days li{
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (min-width : 481px) and (max-width : 540px) and (orientation : landscape) {
+    #year{
+        /*color: aqua;*/
+        font-size: 27px !important;
+    }
+    #logo{
+        margin: 11px 5px 3px;
+    }
+
+    .logo{
+        width: 55px;
+        height: 55px;
+        content: url('../Image/Logo_med.png');
+    }
+
+    #month p{
+        font-size: 27px !important;
+    }
+
+    #setting{
+        padding: 15px 10px 0px;
+    }
+
+    .img{
+        width : 28px;
+        height : 28px;
+    }
+
+    .textMenu{font-size: 17px !important;}
+
+    #top #month {
+        margin: 10px auto;
+    }
+
+    #month #arrow-left {
+        width: 40px;
+        height: 40px;
+        background: url(../Image/arrow_large.png) 0 0;
+    }
+
+    #months{
+        padding-top: 5px;
+    }
+
+    #month #arrow-right {
+        width: 40px;
+        height: 40px;
+        background: url(../Image/arrow_large.png) -40px 0;
+        margin-top: -32px;
+    }
+
+    .day-of-week li{
+        font-size: 18px !important;
+    }
+
+    .submenu li a {
+        padding: 20px 0;
+        font-size: 19px !important;
+    }
+
+    .test {
+        font-size: 18px !important;
+    }
+
+    .red{
+        margin-right: 2px;
+        width: 6px;
+        height: 6px;
+        top: -7px;
+    }
+
+    .days li{
+        margin: 13px 0;
+        width: 10.18%;
+    }
+
+    .days li.num-day-first {
+        margin-right: 2.03%;
+    }
+
+    .days li.num-day, .days li.num-day-last {
+        margin-right: 4.25%;
     }
 }
 
 @media only screen and (min-width : 541px) and (max-width : 600px) {
     #year{
         color: brown;
-        font-size: 35px;
+        font-size: 38px !important;
     }
     #logo{
-        margin: 26px 20px 0;
+        margin: 11px 10px 0;
     }
 
     #header{
@@ -605,25 +701,25 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     .logo{
-        width: 75px;
-        height: 75px;
-        content: url('../Image/Logo_large.png');
+        width: 70px;
+        height: 70px;
+        /*content: url('../Image/Logo_large.png');*/
     }
 
     #month p{
-        font-size: 35px;
+        font-size: 38px !important;
     }
 
     #setting{
-        padding: 32px 10px;
+        padding: 15px 5px 13px;
     }
 
     .img{
-        width : 40px;
-        height : 40px;
+        width : 38px;
+        height : 38px;
     }
 
-    .textMenu{font-size: 22px;}
+    .textMenu{font-size: 25px !important;}
 
     #content{
         padding-top: 30px;
@@ -636,35 +732,38 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     #month #arrow-left {
         width: 50px;
         height: 50px;
-        background: url(../Image/arrow_medium.png) 0 0;
+        background: url(../Image/arrow_large2.png) 0 0;
     }
 
     #month #arrow-right {
         width: 50px;
         height: 50px;
-        background: url(../Image/arrow_medium.png) -50px 0;
+        background: url(../Image/arrow_large2.png) -50px 0;
         margin-top: -41px;
     }
 
     .day-of-week {
         margin: 20px auto 0;
-        padding-bottom: 20px;
         border-width: 2px;
     }
 
     .day-of-week li{
-        font-size: 26px !important;
+        font-size: 27px !important;
     }
 
-    .submenu{min-width: 230%;}
+    .submenu{min-width: 280%;right: -270%;}
+
+    .show{
+        right: 25%;
+    }
 
     .submenu li a {
-        padding: 25px 0;
-        font-size: 22px;
+        padding: 28px 0;
+        font-size: 28px !important;
     }
 
     .test{
-        font-size: 1.6em;
+        font-size: 25px !important;
     }
 
     .red{
@@ -672,15 +771,259 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
         width: 8px;
         height: 8px;
     }
+
+    .days li{
+        margin: 22px 0;
+    }
 }
 
-@media only screen and (min-width : 601px) and (max-width : 640px) {
+@media only screen and (min-width : 541px) and (max-width : 600px) and (min-device-pixel-ratio : 1.5),
+only screen and (min-width : 541px) and (max-width : 600px) and (-webkit-min-device-pixel-ratio : 1.5){
     #year{
-        color: deeppink;
+        color: aqua;
+        font-size: 33px !important;
+    }
+    #logo{
+        margin: 17px 15px 8px;
+    }
+
+    .logo{
+        width: 60px;
+        height: 60px;
+        content: url('../Image/Logo_med.png');
+    }
+
+    #header{
+        border-width: 5px;
+    }
+
+    #month p{
+        font-size: 33px !important;
+    }
+
+    #setting{
+        padding: 18px 5px 0px;
+    }
+
+    .img{
+        width : 35px;
+        height : 35px;
+    }
+
+    .textMenu{font-size: 22px !important;}
+
+    #content{
+        padding-top: 30px;
+    }
+
+    #top #month {
+        margin: 10px auto;
+    }
+
+    #month #arrow-left {
+        width: 50px;
+        height: 50px;
+        background: url(../Image/arrow_large2.png) 0 0;
+    }
+
+    #months{
+        padding-top: 8px;
+    }
+
+    #month #arrow-right {
+        width: 50px;
+        height: 50px;
+        background: url(../Image/arrow_large2.png) -50px 0;
+        margin-top: -41px;
+    }
+
+    .day-of-week {
+        margin: 20px auto 0;
     }
 
     .day-of-week li{
-        margin-left: 46px;
+        font-size: 24px !important;
+    }
+
+    .submenu{min-width: 280%;right: -270%;}
+
+    .show{
+        right: 25%;
+    }
+
+    .submenu li a {
+        padding: 25px 0;
+        font-size: 26px !important;
+    }
+
+    .submenu li:first-child {
+        border-width: 2px;
+    }
+
+    .test {
+        font-size: 23px !important;
+    }
+
+    .red{
+        margin-right: 2px;
+        width: 8px;
+        height: 8px;
+        top: -10px;
+    }
+
+    .days li{
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (min-width : 541px) and (max-width : 600px) and (orientation : landscape) {
+    #year{
+        font-size: 28px !important;
+    }
+    #logo{
+        margin: 10px 5px 0;
+    }
+
+    #header{
+        border-width: 5px;
+    }
+
+    .logo{
+        width: 55px;
+        height: 55px;
+    }
+
+    #month p{
+        font-size: 28px !important;
+    }
+
+    #setting{
+        padding: 17px 5px 11px;
+    }
+
+    .img{
+        width : 25px;
+        height : 25px;
+    }
+
+    .textMenu{font-size: 17px !important;}
+
+    #month #arrow-right {
+        margin-top: -38px;
+    }
+
+    #months{
+        padding-top: 10px;
+    }
+
+    .day-of-week {
+        border-width: 1px;
+    }
+
+    .day-of-week li{
+        font-size: 18px !important;
+    }
+
+    .days li{
+        margin: 17px 0;
+        width: 10%;
+    }
+
+    .days li.num-day-first {
+        margin-right: 2%;
+    }
+
+    .days li.num-day, .days li.num-day-last {
+        margin-right: 4.5%;/* 4.43*/
+    }
+
+    .submenu{min-width: 300%; right: -290%;}
+
+    .show{
+        right: 25%;
+    }
+
+    .submenu li a {
+        padding: 23px 0;
+        font-size: 21px !important;
+    }
+
+    .test{
+        font-size: 19px !important;
+    }
+
+    .red{
+        margin-right: 2px;
+        width: 6px;
+        height: 6px;
+    }
+}
+
+@media only screen and (min-width : 601px) and (max-width : 640px) and (orientation : portrait) {
+    #year{
+        color: deeppink;
+        font-size: 25px !important;
+    }
+
+    #logo {
+        margin: 9px 5px 0;
+    }
+
+    .logo {
+        content: url('../Image/Logo.png');
+        width: 50px;
+        height: 50px;
+    }
+
+    #setting {
+        padding: 13px 5px 8px;
+    }
+
+    .img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .textMenu {
+        font-size: 16px !important;
+    }
+
+    .submenu li a {
+        padding: 20px 0;
+        font-size: 18px !important;
+    }
+
+    .submenu{
+        width: 280%;
+    }
+
+    #month p {
+        font-size: 25px !important;
+    }
+
+    #month #arrow-left {
+        width: 40px;
+        height: 40px;
+        background: url(../Image/arrow_large.png) 0 0;
+    }
+
+    #month #arrow-right {
+        width: 40px;
+        height: 40px;
+        background: url(../Image/arrow_large.png) -40px 0;
+        margin-top: -33px;
+    }
+
+    #months {
+        padding-top: 8px;
+    }
+
+    .day-of-week {
+        margin: 20px auto 0;
+    }
+
+    .day-of-week li{
+        font-size: 18px !important;
     }
 
     .red{
@@ -689,40 +1032,143 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     .test {
-        font-size: 18px;
+        font-size: 19px !important;
+    }
+
+    .days li.num-day-first {
+        margin-right: 2.65%;
+    }
+
+    .days li.num-day, .days li.num-day-last {
+        margin-right: 5.46%;
+    }
+
+    .days li{
+        margin: 15px 0;
+        width: 9.06%;
+    }
+}
+
+@media only screen and (min-width : 601px) and (max-width : 640px) and (orientation : landscape) {
+    #year{
+        color: deeppink;
+    }
+
+    .red{
+        width: 6px;
+        height: 6px;
+    }
+
+    .test {
+        font-size: 18px !important;
+    }
+
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .img {
+        content: url('../Image/setting.png');
+        width: 25px;
+        height: 25px;
+    }
+
+    .textMenu{
+        font-size: 16px !important;
+    }
+
+    .submenu{
+        width: 280%;
+    }
+
+    .submenu li a {
+        padding: 20px 0;
+        font-size: 18px !important;
+    }
+
+    #month #arrow-left {
+        width: 40px;
+        height: 40px;
+        background: url(../Image/arrow_large.png) 0 0;
+    }
+
+    #month #arrow-right {
+        width: 40px;
+        height: 40px;
+        background: url(../Image/arrow_large.png) -40px
+        0;
+        margin-top: -29px;
+    }
+
+    #months{
+        padding-top: 6px;
+    }
+
+    #month p{
+        font-size: 23px !important;
+    }
+
+    .day-of-week li{
+        font-size: 18px !important;
+    }
+
+    .days li.num-day-first {
+        margin-right: 2.18%;
+    }
+
+    .days li.num-day, .days li.num-day-last {
+        margin-right: 5.46%;/*5.4*/
+    }
+
+    .days li{
+        margin: 15px 0;
+        width: 9.06%;
+    }
+
+    .test{
+        font-size: 19px !important;
     }
 }
 
 @media only screen and (min-width : 641px) and (max-width : 768px) {
     #year{
         color: gold;
-        font-size: 35px;
+        font-size: 35px !important;
     }
 
     #logo{
-        margin: 19px 25px 0;
+        margin: 13px 5px 0;
     }
 
     .logo{
-        width: 75px;
-        height: 75px;
-        content: url('../Image/Logo_large.png');
+        width: 70px;
+        height: 70px;
+    }
+
+    .submenu {
+        min-width: 300%;
+        right: -290%;
+    }
+
+    .show{
+        right: 25%;
     }
 
     #month p{
-        font-size: 37px;
+        font-size: 37px !important;
     }
 
     #setting{
-        padding: 22px 12px 20px;
+        padding: 17px 5px 16px;
     }
 
     .img{
-        width : 45px;
-        height : 45px;
+        width : 35px;
+        height : 35px;
     }
 
-    .textMenu{font-size: 26px;}
+    .textMenu{font-size: 24px !important;}
 
     #content{
         padding-top: 40px;
@@ -733,25 +1179,24 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 
     #months{
-        padding-top: 16px;
+        padding-top: 7px;
     }
 
     #month #arrow-left {
-        width: 70px;
-        height: 70px;
-        background: url(../Image/arrow_large.png) 0 0;
+        width: 60px;
+        height: 60px;
+        background: url(../Image/arrow_large3.png) 0 0;
     }
 
     #month #arrow-right {
-        width: 70px;
-        height: 70px;
-        background: url(../Image/arrow_large.png) -70px 0;
-        margin-top: -53px;
+        width: 60px;
+        height: 60px;
+        background: url(../Image/arrow_large3.png) -60px 0;
+        margin-top: -44px;
     }
 
     .day-of-week {
         margin: 30px auto 0;
-        padding-bottom: 10px;
         border-width: 3px;
     }
 
@@ -760,28 +1205,513 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
         font-size: 28px !important;
     }
 
-    .submenu{min-width: 230%;}
-
     .submenu li:first-child{
         border-width: 2px;
     }
 
     .submenu li a {
-        padding: 25px 0;
-        font-size: 26px;
+        padding: 28px 0;
+        font-size: 27px !important;
     }
 
     .test{
-        font-size: 2em !important;
+        font-size: 28px !important;
     }
 
     .red{
         margin-right: 2px;
-        width: 12px;
-        height: 12px;
+        width: 9px;
+        height:9px;
+        top: -8px;
     }
 
     #header{
         border-width: 6px;
     }
+
+    .days li{
+        margin: 22px 0;
+        width: 10.41%;
+    }
+
+    .days li.num-day, .days li.num-day-last {
+        margin-right: 4.03%;
+    }
+
+    .days li.num-day-first {
+        margin-right: 1.69%;
+    }
+}
+
+@media only screen and (min-width : 641px) and (max-width : 768px) and (orientation : landscape) {
+    #year{
+        font-size: 32px !important;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .textMenu {
+        font-size: 18px !important;
+    }
+
+    .submenu li a {
+        padding: 23px 0;
+        font-size: 21px !important;
+    }
+
+    #month #arrow-left {
+        width: 50px;
+        height: 50px;
+        background: url(../Image/arrow_large2.png) 0 0;
+    }
+
+    #month #arrow-right {
+        width: 50px;
+        height: 50px;
+        background: url(../Image/arrow_large2.png) -50px 0;
+        margin-top: -36px;
+    }
+
+    #months{
+        padding-top: 6px;
+    }
+
+    #month p{
+        font-size: 30px !important;
+    }
+
+    .day-of-week{
+        border-width: 1px;
+    }
+
+    .day-of-week li{
+        font-size: 26px !important;
+    }
+
+    .red{
+        width: 7px;
+        height: 7px;
+        top: -7px;
+    }
+
+    .days li{
+        margin: 15px 0;
+        width: 8.85%;
+    }
+
+    .test{
+        font-size: 22px !important;
+    }
+
+    .days li.num-day-first {
+        margin-right: 2.47%;
+    }
+
+    .days li.num-day, .days li.num-day-last {
+        margin-right: 5.59%;
+    }
+}
+
+@media only screen and (min-width : 769px) and (max-width : 800px) {
+    #year{
+        color: darkmagenta;
+        font-size: 38px !important;
+    }
+
+    #header {
+        border-width: 5px;
+    }
+
+    #logo {
+        margin: 18px 5px 15px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    #setting {
+        padding: 23px 5px 0;
+    }
+
+    .submenu li a {
+        padding: 31px 0;
+        font-size: 30px !important;
+    }
+
+    .submenu{
+        width: 300%;
+        right: -290%;
+    }
+
+    .show{
+        right: 25%;
+    }
+
+    #content{
+        padding-top: 45px;
+    }
+
+    #month #arrow-left {
+        width: 60px;
+        height: 60px;
+        background: url(../Image/arrow_large3.png) 0 0;
+    }
+
+    #month #arrow-right {
+        width: 60px;
+        height: 60px;
+        background: url(../Image/arrow_large3.png) -60px 0;
+        margin-top: -50px;
+    }
+
+    #months{
+        padding-top: 8px;
+    }
+
+    #month p {
+        font-size: 42px !important;
+    }
+
+    .day-of-week{
+        padding-bottom: 10px;
+        border-width: 3px;
+        margin: 24px auto 0;
+    }
+
+    .day-of-week li{
+        font-size: 33px !important;
+    }
+
+    .img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .textMenu{
+        font-size: 30px !important;
+    }
+
+    .days li{
+        margin: 25px 0;
+        width: 10.62%;
+    }
+
+    .red {
+        width: 8px;
+        height: 8px;
+    }
+
+    .days li.num-day-first {
+        margin-right: 1.75%;
+    }
+
+    .days li.num-day, .days li.num-day-last {
+        margin-right: 3.75%;
+    }
+
+    .test{
+        font-size: 31px !important;
+    }
+}
+
+@media only screen and (min-width : 801px) and (max-width : 854px) {
+    #setting {
+        padding: 7px 5px 0;
+    }
+
+    .img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .textMenu {
+        font-size: 16px !important;
+    }
+
+    #month p {
+        font-size: 23px !important;
+    }
+
+    #month #arrow-left {
+        width: 40px;
+        height: 40px;
+        background: url(../Image/arrow_large.png) 0 0;
+    }
+
+    #month #arrow-right {
+        width: 40px;
+        height: 40px;
+        background: url(../Image/arrow_large.png) -40px 0;
+        margin-top: -29px;
+    }
+
+    #months {
+        padding-top: 6px;
+    }
+
+    #month p {
+        font-size: 23px !important;
+    }
+
+    .day-of-week {
+        margin: 15px auto 0;
+    }
+
+    .day-of-week li{
+        font-size: 18px !important;
+    }
+
+    .days li.num-day-first {
+        margin-right: 3.27%;
+    }
+
+    .days li.num-day, .days li.num-day-last {
+        margin-right: 7.72%;
+    }
+
+    .days li{
+        margin: 15px 0;
+        width: 6.79%;
+    }
+
+    .test{
+        font-size: 19px !important;
+    }
+
+    .red{
+        width: 6px;height: 6px;
+    }
+}
+
+@media only screen and (min-width : 855px) and (max-width : 960px) {
+    .logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    #setting {
+        padding: 10px 5px 0;
+    }
+
+    .img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .textMenu {
+        font-size: 15px !important;
+    }
+
+    .submenu{
+        width: 280%;
+    }
+
+    .days li.num-day-first {
+        margin-right: 3.85%;
+    }
+
+    .days li.num-day, .days li.num-day-last {
+        margin-right: 8.75%;
+    }
+
+    .days li {
+        width: 5.72%;
+        margin: 13px auto;
+    }
+
+    .red {
+        width: 6px;
+        height: 6px;
+    }
+
+    .test {
+        font-size: 16px !important;
+    }
+}
+
+/*landscape*/
+@media only screen and (min-width : 961px) and (max-width : 1024px) {
+    #setting {
+        padding: 11px 5px 0;
+    }
+
+    .submenu{
+        width: 300%;
+        right: -280%;
+    }
+
+    .show{
+        right: 25%;
+    }
+
+    .test {
+        font-size: 17px !important;
+    }
+
+    .days li.num-day-first {
+        margin-right: 3.71%;
+    }
+
+    .days li.num-day, .days li.num-day-last {
+        margin-right: 8.15%;
+    }
+
+    .red{
+        width: 6px;
+        height: 6px;
+    }
+
+    .days li{
+        width: 6.34%;
+        margin: 15px 0;
+    }
+
+    #month #arrow-left {
+        width: 40px;
+        height: 40px;
+        background: url(../Image/arrow_large.png) 0 0;
+    }
+
+    #month #arrow-right {
+        width: 40px;
+        height: 40px;
+        background: url(../Image/arrow_large.png) -40px 0;
+        margin-top: -32px;
+    }
+
+    #months {
+        padding-top: 7px;
+    }
+
+    #month p {
+        font-size: 24px !important;
+    }
+}
+
+@media only screen and (min-width : 1025px) and (max-width : 1080px) {
+
+}
+
+@media only screen and (min-width : 1081px) and (max-width : 1136px) {
+
+}
+
+@media only screen and (min-width : 1137px) and (max-width : 1280px) {
+    #logo {
+        margin: 10px 5px 0;
+    }
+
+    .logo {
+        width: 55px;
+        height: 55px;
+    }
+
+    .img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .textMenu {
+        font-size: 18px !important;
+    }
+
+    .submenu li a {
+        padding: 20px 0;
+        font-size: 19px !important;
+    }
+
+    .submenu{
+        width: 270%;
+    }
+
+    #header{
+        border-width: 4px;
+    }
+
+    #year{
+        font-size: 28px !important;
+    }
+
+    #month #arrow-left {
+        width: 50px;
+        height: 50px;
+        background: url(../Image/arrow_large2.png) 0 0;
+    }
+
+    #month #arrow-right {
+        width: 50px;
+        height: 50px;
+        background: url(../Image/arrow_large2.png) -50px 0;
+        margin-top: -37px;
+    }
+
+    #month p {
+        font-size: 29px !important;
+    }
+
+    #months{
+        padding-top: 8px;
+    }
+
+    .day-of-week {
+        margin-top: 15px;
+    }
+
+    .day-of-week li.o {
+        margin-right: 0.9%;
+    }
+
+    .day-of-week li {
+        width: 2.46%;
+        margin-right: 13.48%;
+        font-size: 23px !important;
+    }
+
+    .days li.num-day-first {
+        margin-right: 1.32%;
+    }
+
+    .days li.num-day, .days li.num-day-last {
+        margin-right: 8.67%;
+    }
+
+    .days li {
+        width: 6.48%;
+        margin: 15px auto;
+    }
+
+    .test {
+        font-size: 24px !important;
+    }
+
+    .red{
+        width: 8px;
+        height: 8px;
+    }
+}
+
+@media only screen and (min-width : 1281px) and (max-width : 1366px) {
+
+}
+
+@media only screen and (min-width : 1367px) and (max-width : 1600px) {
+
+}
+
+@media only screen and (min-width : 1601px) and (max-width : 1920px){
+
+}
+
+@media only screen and (min-width : 1921px) {
+
 }

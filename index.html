@@ -1,14 +1,17 @@
 <!DOCTYPE html><!--HTML5 doctype-->
 <html>
 <head>
-    <title>Your New Application</title>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+
+    <link rel="stylesheet" href="Css/min.css">
+    <script src="Js/jquery-2.1.1.min.js"></script>
+    <script src="Js/jquery.mobile-1.4.3.min.js"></script>
+    <script src="Js/Initialize.js"></script>
 
     <link type="text/css" rel="stylesheet" href="./Css/reset.css" />
     <link type="text/css" rel="stylesheet" href="./Css/style.css" />
     <link type="text/css" rel="stylesheet" href="./Css/responsive.css" />
-
     <style type="text/css">
             /* Prevent copy paste for all elements except text fields */
         *  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
@@ -16,21 +19,19 @@
 
     </style>
 
-    <script src="Js/jquery.js"></script>
-    <script src="Js/Initialize.js"></script>
 </head>
 <body>
 
-<div data-role="page" id="main-calendar">
+<div data-role="page" id="mainCalendar">
 
-    <div data-role="header" id="header">
+    <div id="header">
 
         <div id="logo">
             <img class="logo" />
         </div>
 
         <div id="setting">
-            <img class="img" />
+            <img class="img" class="ui-btn ui-icon-gear" />
             <p class="textMenu">تنظیمات</p>
 
             <div class="submenu">
@@ -47,9 +48,9 @@
         <div id="top">
             <p id="year"></p>
             <div id="month">
-                <span id="arrow-left" title="برو به ماه قبل" ></span>
+                <span id="arrow-left"></span>
                 <span id="months"> <p id="name-of-month"></p>  </span>
-                <span id="arrow-right" title="برو به ماه بعد"> </span>
+                <span id="arrow-right"> </span>
                 <div class="badboy"></div>
             </div>
 
@@ -70,5 +71,29 @@
         </div>
     </div>
 </div>
+
+
+<div data-role="page" id="listTaskCalendar">
+
+    <div id="header">
+
+        <div id="logo">
+            <img class="logo" />
+        </div>
+
+        <div id="setting">
+            <img class="img" />
+            <p class="textMenu">افزودن</p>
+        </div>
+
+        <div class="badboy"></div>
+    </div>
+
+    <div data-role="main">
+        <a href="#mainCalendar" data-transition="slide" data-direction="reverse">back</a>
+    </div>
+</div>
+
+
 </body>
 </html>
