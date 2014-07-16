@@ -617,6 +617,7 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
 @media only screen and (min-width : 481px) and (max-width : 540px) and (orientation : landscape) {
     #year{
         /*color: aqua;*/
+        color: darkorange;
         font-size: 24px !important;
     }
 
@@ -794,104 +795,104 @@ only screen and (min-width : 361px) and (max-width : 480px) and (-moz-min-device
     }
 }
 
-@media only screen and (min-width : 541px) and (max-width : 600px) and (min-device-pixel-ratio : 1.5),
-only screen and (min-width : 541px) and (max-width : 600px) and (-webkit-min-device-pixel-ratio : 1.5){
-    #year{
-        color: aqua;
-        font-size: 33px !important;
-    }
-    #logo{
-        margin: 17px 15px 8px;
-    }
+/*@media only screen and (min-width : 541px) and (max-width : 600px) and (min-device-pixel-ratio : 1.5) and (orientation : portrait),*/
+/*only screen and (min-width : 541px) and (max-width : 600px) and (-webkit-min-device-pixel-ratio : 1.5) and (orientation : portrait){*/
+    /*#year{*/
+        /*color: fuchsia;*/
+        /*font-size: 33px !important;*/
+    /*}*/
+    /*#logo{*/
+        /*margin: 17px 15px 8px;*/
+    /*}*/
 
-    .logo{
-        width: 60px;
-        height: 60px;
-        content: url('../Image/Logo_med.png');
-    }
+    /*.logo{*/
+        /*width: 60px;*/
+        /*height: 60px;*/
+        /*content: url('../Image/Logo_med.png');*/
+    /*}*/
 
-    #header{
-        border-width: 5px;
-    }
+    /*#header{*/
+        /*border-width: 5px;*/
+    /*}*/
 
-    #month p{
-        font-size: 33px !important;
-    }
+    /*#month p{*/
+        /*font-size: 33px !important;*/
+    /*}*/
 
-    #setting{
-        padding: 18px 5px 0px;
-    }
+    /*#setting{*/
+        /*padding: 18px 5px 0px;*/
+    /*}*/
 
-    .img{
-        width : 35px;
-        height : 35px;
-    }
+    /*.img{*/
+        /*width : 35px;*/
+        /*height : 35px;*/
+    /*}*/
 
-    .textMenu{font-size: 22px !important;}
+    /*.textMenu{font-size: 22px !important;}*/
 
-    #content{
-        padding-top: 30px;
-    }
+    /*#content{*/
+        /*padding-top: 30px;*/
+    /*}*/
 
-    #top #month {
-        margin: 10px auto;
-    }
+    /*#top #month {*/
+        /*margin: 10px auto;*/
+    /*}*/
 
-    #month #arrow-left {
-        width: 50px;
-        height: 50px;
-        background: url(../Image/arrow_large2.png) 0 0;
-    }
+    /*#month #arrow-left {*/
+        /*width: 50px;*/
+        /*height: 50px;*/
+        /*background: url(../Image/arrow_large2.png) 0 0;*/
+    /*}*/
 
-    #months{
-        padding-top: 8px;
-    }
+    /*#months{*/
+        /*padding-top: 8px;*/
+    /*}*/
 
-    #month #arrow-right {
-        width: 50px;
-        height: 50px;
-        background: url(../Image/arrow_large2.png) -50px 0;
-        margin-top: -41px;
-    }
+    /*#month #arrow-right {*/
+        /*width: 50px;*/
+        /*height: 50px;*/
+        /*background: url(../Image/arrow_large2.png) -50px 0;*/
+        /*margin-top: -41px;*/
+    /*}*/
 
-    .day-of-week {
-        margin: 20px auto 0;
-    }
+    /*.day-of-week {*/
+        /*margin: 20px auto 0;*/
+    /*}*/
 
-    .day-of-week li{
-        font-size: 24px !important;
-    }
+    /*.day-of-week li{*/
+        /*font-size: 24px !important;*/
+    /*}*/
 
-    .submenu{min-width: 280%;right: -270%;}
+    /*.submenu{min-width: 280%;right: -270%;}*/
 
-    .show{
-        right: 25%;
-    }
+    /*.show{*/
+        /*right: 25%;*/
+    /*}*/
 
-    .submenu li a {
-        padding: 25px 0;
-        font-size: 26px !important;
-    }
+    /*.submenu li a {*/
+        /*padding: 25px 0;*/
+        /*font-size: 26px !important;*/
+    /*}*/
 
-    .submenu li:first-child {
-        border-width: 2px;
-    }
+    /*.submenu li:first-child {*/
+        /*border-width: 2px;*/
+    /*}*/
 
-    .test {
-        font-size: 23px !important;
-    }
+    /*.test {*/
+        /*font-size: 23px !important;*/
+    /*}*/
 
-    .red{
-        margin-right: 2px;
-        width: 8px;
-        height: 8px;
-        top: -10px;
-    }
+    /*.red{*/
+        /*margin-right: 2px;*/
+        /*width: 8px;*/
+        /*height: 8px;*/
+        /*top: -10px;*/
+    /*}*/
 
-    .days li{
-        margin: 20px 0;
-    }
-}
+    /*.days li{*/
+        /*margin: 20px 0;*/
+    /*}*/
+/*}*/
 
 @media only screen and (min-width : 541px) and (max-width : 600px) and (orientation : landscape) {
     #year{
@@ -1172,7 +1173,7 @@ only screen and (min-width : 541px) and (max-width : 600px) and (-webkit-min-dev
     }
 
     #logo{
-        margin: 13px 5px 0;
+        margin: 12px 5px 0;
     }
 
     .logo{
@@ -1194,7 +1195,7 @@ only screen and (min-width : 541px) and (max-width : 600px) and (-webkit-min-dev
     }
 
     #setting{
-        padding: 17px 5px 16px;
+        padding: 19px 5px 12px;
     }
 
     .img{
@@ -1235,8 +1236,7 @@ only screen and (min-width : 541px) and (max-width : 600px) and (-webkit-min-dev
     }
 
     .day-of-week li{
-        height: 35px;
-        font-size: 28px !important;
+        font-size: 31px !important;
     }
 
     .submenu li:first-child{
@@ -1245,7 +1245,7 @@ only screen and (min-width : 541px) and (max-width : 600px) and (-webkit-min-dev
 
     .submenu li a {
         padding: 28px 0;
-        font-size: 27px !important;
+        font-size: 25px !important;
     }
 
     .test{
@@ -1260,7 +1260,7 @@ only screen and (min-width : 541px) and (max-width : 600px) and (-webkit-min-dev
     }
 
     #header{
-        border-width: 6px;
+        border-width: 5px;
     }
 
     .days li{
@@ -1555,7 +1555,7 @@ only screen and (min-width : 541px) and (max-width : 600px) and (-webkit-min-dev
     }
 
     .days li.num-day, .days li.num-day-last {
-        margin-right: 8.75%;
+        margin-right: 8.85%;
     }
 
     .days li {
@@ -1758,8 +1758,104 @@ only screen and (min-width : 541px) and (max-width : 600px) and (-webkit-min-dev
     }
 }
 
+/* landscape*/
 @media only screen and (min-width : 1281px) and (max-width : 1366px) {
+    #logo {
+        margin: 12px 5px 5px;
+    }
 
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    #setting {
+        padding: 15px 5px 0;
+    }
+
+    .img {
+        width: 33px;
+        height: 33px;
+    }
+
+    .textMenu {
+        font-size: 23px !important;
+    }
+
+    .submenu li a {
+        padding: 25px 0;
+        font-size: 24px !important;
+    }
+
+    .submenu{
+        width: 280%;
+        right: -270%;
+    }
+
+    .show{
+        right: 25%;
+    }
+
+    #content {
+        padding-top: 30px;
+    }
+
+    #year{
+        font-size: 29px !important;
+    }
+
+    #month p{
+        font-size: 29px !important;
+    }
+
+    #month #arrow-left {
+        width: 50px;
+        height: 50px;
+        background: url(../Image/arrow_large2.png) 0 0;
+    }
+
+    #month #arrow-right {
+        width: 50px;
+        height: 50px;
+        background: url(../Image/arrow_large2.png) -50px 0;
+        margin-top: -48px;
+    }
+
+    .day-of-week li {
+        width: 2.32%;
+        margin-right: 13.58%;
+        font-size: 29px !important;
+    }
+
+    .day-of-week{
+        margin: 20px auto 0;
+    }
+
+    #months{
+        padding-top: 18px;
+    }
+
+    .days li{
+        width: 7.32%;
+        margin: 20px auto;
+    }
+
+    .days li.num-day-first{
+        margin-right: 1.09%;
+    }
+
+    .days li.num-day, .days li.num-day-last {
+        margin-right: 7.68%;
+    }
+
+    .test{
+        font-size: 25px !important;
+    }
+
+    .red{
+        width: 9px;
+        height: 9px;
+    }
 }
 
 @media only screen and (min-width : 1367px) and (max-width : 1600px) {
